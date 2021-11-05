@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/azul_calcu">
+
+    <TextView
+        android:id="@+id/pantalla"
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="15dp"
+        android:textSize="60dp"
+        android:background="@color/teal_200"
+        app:layout_constraintLeft_toLeftOf="@id/guideline1"
+        app:layout_constraintRight_toRightOf="@id/guideline2"
+        app:layout_constraintTop_toTopOf="parent"
+        android:backgroundTint="@color/white"
+        />
+
+    <ImageButton
+        android:id="@+id/btnc"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="8dp"
+        android:background="@color/azul_calcu"
+        android:src="@mipmap/ic_trash_foreground"
+        app:layout_constraintLeft_toRightOf="@id/guideline1"
+        app:layout_constraintTop_toTopOf="@id/verticalguideline1" />
+
+
+    <ImageButton
+        android:id="@+id/btndel"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@mipmap/ic_resta_foreground"
+        app:layout_constraintLeft_toRightOf="@id/guideline5"
+        app:layout_constraintTop_toTopOf="@id/verticalguideline1"
+        android:background="@color/azul_calcu"
+        android:layout_marginLeft="9dp"/>
+
+    <ImageButton
+        android:id="@+id/btndiv"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@mipmap/ic_dividir_foreground"
+        app:layout_constraintLeft_toRightOf="@id/guideline6"
+        app:layout_constraintTop_toTopOf="@id/verticalguideline1"
+        android:background="@color/azul_calcu"
+        android:layout_marginLeft="9dp"/>
+
+    <ImageButton
+        android:id="@+id/btn7"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@mipmap/ic_siete_foreground"
+        app:layout_constraintLeft_toRightOf="@id/guideline1"
+        app:layout_constraintTop_toTopOf="@id/verticalguideline2"
+        android:background="@color/azul_calcu"
+        android:layout_marginLeft="9dp"/>
+
+    <ImageButton
+        android:id="@+id/btn8"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@mipmap/ic_ocho_foreground"
+        app:layout_constraintLeft_toRightOf="@id/guideline4"
+        app:layout_constraintTop_toTopOf="@id/verticalguideline2"
+        android:background="@color/azul_calcu"
+        android:layout_marginLeft="9dp"/>
+
+    <ImageButton
+        android:id="@+id/btn9"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@mipmap/ic_nueve_foreground"
+        app:layout_constraintLeft_toRightOf="@id/guideline5"
+        app:layout_constraintTop_toTopOf="@id/verticalguideline2"
+        android:background="@color/azul_calcu"
+        android:layout_marginLeft="9dp"/>
+
+    <ImageButton
+        android:id="@+id/btnmult"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@mipmap/ic_mulriplicar_foreground"
+        app:layout_constraintLeft_toRightOf="@id/guideline6"
+        app:layout_constraintTop_toTopOf="@id/verticalguideline2"
+        android:background="@color/azul_calcu"
+        android:layout_marginLeft="9dp"/>
+
+    <ImageButton
+        android:id="@+id/btn4"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@mipmap/ic_cuatro_foreground"
+        app:layout_constraintLeft_toRightOf="@id/guideline1"
+        app:layout_constraintTop_toTopOf="@id/verticalguideline3"
+        android:background="@color/azul_calcu"
+        android:layout_marginLeft="9dp"/>
+
+    <ImageButton
+        android:id="@+id/btn5"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@mipmap/ic_cinco_foreground"
+        app:layout_constraintLeft_toRightOf="@id/guideline4"
+        app:layout_constraintTop_toTopOf="@id/verticalguideline3"
+        android:background="@color/azul_calcu"
+        android:layout_marginLeft="9dp"/>
+
+    <ImageButton
+        android:id="@+id/btn6"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@mipmap/ic_seis_foreground"
+        app:layout_constraintLeft_toRightOf="@id/guideline5"
+        app:layout_constraintTop_toTopOf="@id/verticalguideline3"
+        android:background="@color/azul_calcu"
+        android:layout_marginLeft="9dp"/>
+
+    <ImageButton
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@mipmap/ic_resta_foreground"
+        app:layout_constraintLeft_toRightOf="@id/guideline6"
+        app:layout_constraintTop_toTopOf="@id/verticalguideline3"
+        android:background="@color/azul_calcu"
+        android:layout_marginLeft="9dp"/>
+
+    <ImageButton
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@mipmap/ic_uno_foreground"
+        app:layout_constraintLeft_toRightOf="@id/guideline1"
+        app:layout_constraintTop_toTopOf="@id/verticalguideline4"
+        android:background="@color/azul_calcu"
+        android:layout_marginLeft="9dp"/>
+
+    <ImageButton
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@mipmap/ic_dos_foreground"
+        app:layout_constraintLeft_toRightOf="@id/guideline4"
+        app:layout_constraintTop_toTopOf="@id/verticalguideline4"
+        android:background="@color/azul_calcu"
+        android:layout_marginLeft="9dp"/>
+
+    <ImageButton
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@mipmap/ic_tres_foreground"
+        app:layout_constraintLeft_toRightOf="@id/guideline5"
+        app:layout_constraintTop_toTopOf="@id/verticalguideline4"
+        android:background="@color/azul_calcu"
+        android:layout_marginLeft="9dp"/>
+
+    <ImageButton
+        android:id="@+id/btnsum"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@mipmap/ic_suma_foreground"
+        app:layout_constraintLeft_toRightOf="@id/guideline6"
+        app:layout_constraintTop_toTopOf="@id/verticalguideline4"
+        android:background="@color/azul_calcu"
+        android:layout_marginLeft="9dp"/>
+
+
+    <ImageButton
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@mipmap/ic_flecha_foreground"
+        app:layout_constraintLeft_toRightOf="@id/guideline1"
+        app:layout_constraintTop_toTopOf="@id/verticalguideline5"
+        android:background="@color/azul_calcu"
+        android:layout_marginLeft="9dp"/>
+
+    <ImageButton
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@mipmap/ic_cero_foreground"
+        app:layout_constraintLeft_toRightOf="@id/guideline4"
+        app:layout_constraintTop_toTopOf="@id/verticalguideline5"
+        android:background="@color/azul_calcu"
+        android:layout_marginLeft="9dp"/>
+
+    <ImageButton
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@mipmap/ic_punto_foreground"
+        app:layout_constraintLeft_toRightOf="@id/guideline5"
+        app:layout_constraintTop_toTopOf="@id/verticalguideline5"
+        android:background="@color/azul_calcu"
+        android:layout_marginLeft="9dp"/>
+
+    <ImageButton
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@mipmap/ic_igual_foreground"
+        app:layout_constraintLeft_toRightOf="@id/guideline6"
+        app:layout_constraintTop_toTopOf="@id/verticalguideline5"
+        android:background="@color/azul_calcu"
+        android:layout_marginLeft="9dp"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/verticalguideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="190dp"
+        />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/verticalguideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="283dp"
+        />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/verticalguideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="376dp"
+        />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/verticalguideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="469dp"
+        />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/verticalguideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="562dp"
+        />
+
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp"
+        />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="20dp"
+        />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="113dp"
+        />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="206dp"
+        />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="299dp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
