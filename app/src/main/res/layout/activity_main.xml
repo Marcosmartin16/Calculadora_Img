@@ -28,7 +28,8 @@
         android:background="@color/azul_calcu"
         android:src="@mipmap/ic_trash_foreground"
         app:layout_constraintLeft_toRightOf="@id/guideline1"
-        app:layout_constraintTop_toTopOf="@id/verticalguideline1" />
+        app:layout_constraintTop_toTopOf="@id/verticalguideline1"
+        android:onClick="acEvent"/>
 
 
     <ImageButton
@@ -39,7 +40,8 @@
         app:layout_constraintLeft_toRightOf="@id/guideline5"
         app:layout_constraintTop_toTopOf="@id/verticalguideline1"
         android:background="@color/azul_calcu"
-        android:layout_marginLeft="9dp"/>
+        android:layout_marginLeft="9dp"
+        android:onClick="operatorEvent"/>
 
     <ImageButton
         android:id="@+id/btndiv"
@@ -49,7 +51,8 @@
         app:layout_constraintLeft_toRightOf="@id/guideline6"
         app:layout_constraintTop_toTopOf="@id/verticalguideline1"
         android:background="@color/azul_calcu"
-        android:layout_marginLeft="9dp"/>
+        android:layout_marginLeft="9dp"
+        android:onClick="operatorEvent"/>
 
     <ImageButton
         android:id="@+id/btn7"
@@ -59,7 +62,8 @@
         app:layout_constraintLeft_toRightOf="@id/guideline1"
         app:layout_constraintTop_toTopOf="@id/verticalguideline2"
         android:background="@color/azul_calcu"
-        android:layout_marginLeft="9dp"/>
+        android:layout_marginLeft="9dp"
+        android:onClick="numberEvent"/>
 
     <ImageButton
         android:id="@+id/btn8"
@@ -69,7 +73,8 @@
         app:layout_constraintLeft_toRightOf="@id/guideline4"
         app:layout_constraintTop_toTopOf="@id/verticalguideline2"
         android:background="@color/azul_calcu"
-        android:layout_marginLeft="9dp"/>
+        android:layout_marginLeft="9dp"
+        android:onClick="numberEvent"/>
 
     <ImageButton
         android:id="@+id/btn9"
@@ -79,7 +84,8 @@
         app:layout_constraintLeft_toRightOf="@id/guideline5"
         app:layout_constraintTop_toTopOf="@id/verticalguideline2"
         android:background="@color/azul_calcu"
-        android:layout_marginLeft="9dp"/>
+        android:layout_marginLeft="9dp"
+        android:onClick="numberEvent"/>
 
     <ImageButton
         android:id="@+id/btnmult"
@@ -89,7 +95,8 @@
         app:layout_constraintLeft_toRightOf="@id/guideline6"
         app:layout_constraintTop_toTopOf="@id/verticalguideline2"
         android:background="@color/azul_calcu"
-        android:layout_marginLeft="9dp"/>
+        android:layout_marginLeft="9dp"
+        android:onClick="operatorEvent"/>
 
     <ImageButton
         android:id="@+id/btn4"
@@ -99,7 +106,8 @@
         app:layout_constraintLeft_toRightOf="@id/guideline1"
         app:layout_constraintTop_toTopOf="@id/verticalguideline3"
         android:background="@color/azul_calcu"
-        android:layout_marginLeft="9dp"/>
+        android:layout_marginLeft="9dp"
+        android:onClick="numberEvent"/>
 
     <ImageButton
         android:id="@+id/btn5"
@@ -109,7 +117,8 @@
         app:layout_constraintLeft_toRightOf="@id/guideline4"
         app:layout_constraintTop_toTopOf="@id/verticalguideline3"
         android:background="@color/azul_calcu"
-        android:layout_marginLeft="9dp"/>
+        android:layout_marginLeft="9dp"
+        android:onClick="numberEvent"/>
 
     <ImageButton
         android:id="@+id/btn6"
@@ -119,43 +128,52 @@
         app:layout_constraintLeft_toRightOf="@id/guideline5"
         app:layout_constraintTop_toTopOf="@id/verticalguideline3"
         android:background="@color/azul_calcu"
-        android:layout_marginLeft="9dp"/>
+        android:layout_marginLeft="9dp"
+        android:onClick="numberEvent"/>
 
     <ImageButton
+        android:id="@+id/btnrest"
         android:layout_width="75dp"
         android:layout_height="75dp"
         android:src="@mipmap/ic_resta_foreground"
         app:layout_constraintLeft_toRightOf="@id/guideline6"
         app:layout_constraintTop_toTopOf="@id/verticalguideline3"
         android:background="@color/azul_calcu"
-        android:layout_marginLeft="9dp"/>
+        android:layout_marginLeft="9dp"
+        android:onClick="operatorEvent"/>
 
     <ImageButton
+        android:id="@+id/btn1"
         android:layout_width="75dp"
         android:layout_height="75dp"
         android:src="@mipmap/ic_uno_foreground"
         app:layout_constraintLeft_toRightOf="@id/guideline1"
         app:layout_constraintTop_toTopOf="@id/verticalguideline4"
         android:background="@color/azul_calcu"
-        android:layout_marginLeft="9dp"/>
+        android:layout_marginLeft="9dp"
+        android:onClick="numberEvent"/>
 
     <ImageButton
+        android:id="@+id/btn2"
         android:layout_width="75dp"
         android:layout_height="75dp"
         android:src="@mipmap/ic_dos_foreground"
         app:layout_constraintLeft_toRightOf="@id/guideline4"
         app:layout_constraintTop_toTopOf="@id/verticalguideline4"
         android:background="@color/azul_calcu"
-        android:layout_marginLeft="9dp"/>
+        android:layout_marginLeft="9dp"
+        android:onClick="numberEvent"/>
 
     <ImageButton
+        android:id="@+id/btn3"
         android:layout_width="75dp"
         android:layout_height="75dp"
         android:src="@mipmap/ic_tres_foreground"
         app:layout_constraintLeft_toRightOf="@id/guideline5"
         app:layout_constraintTop_toTopOf="@id/verticalguideline4"
         android:background="@color/azul_calcu"
-        android:layout_marginLeft="9dp"/>
+        android:layout_marginLeft="9dp"
+        android:onClick="numberEvent"/>
 
     <ImageButton
         android:id="@+id/btnsum"
@@ -165,7 +183,8 @@
         app:layout_constraintLeft_toRightOf="@id/guideline6"
         app:layout_constraintTop_toTopOf="@id/verticalguideline4"
         android:background="@color/azul_calcu"
-        android:layout_marginLeft="9dp"/>
+        android:layout_marginLeft="9dp"
+        android:onClick="operatorEvent"/>
 
 
     <ImageButton
@@ -178,31 +197,40 @@
         android:layout_marginLeft="9dp"/>
 
     <ImageButton
+        android:id="@+id/btn0"
         android:layout_width="75dp"
         android:layout_height="75dp"
         android:src="@mipmap/ic_cero_foreground"
         app:layout_constraintLeft_toRightOf="@id/guideline4"
         app:layout_constraintTop_toTopOf="@id/verticalguideline5"
         android:background="@color/azul_calcu"
-        android:layout_marginLeft="9dp"/>
+        android:layout_marginLeft="9dp"
+        android:onClick="numberEvent"/>
 
     <ImageButton
+        android:id="@+id/btnpunto"
         android:layout_width="75dp"
         android:layout_height="75dp"
         android:src="@mipmap/ic_punto_foreground"
         app:layout_constraintLeft_toRightOf="@id/guideline5"
         app:layout_constraintTop_toTopOf="@id/verticalguideline5"
         android:background="@color/azul_calcu"
-        android:layout_marginLeft="9dp"/>
+        android:layout_marginLeft="9dp"
+        android:onClick="operatorEvent"/>
 
     <ImageButton
+        android:id="@+id/btnigual"
         android:layout_width="75dp"
         android:layout_height="75dp"
         android:src="@mipmap/ic_igual_foreground"
         app:layout_constraintLeft_toRightOf="@id/guideline6"
         app:layout_constraintTop_toTopOf="@id/verticalguideline5"
         android:background="@color/azul_calcu"
-        android:layout_marginLeft="9dp"/>
+        android:layout_marginLeft="9dp"
+        android:onClick="equalEvent"/>
+
+
+
 
 
     <androidx.constraintlayout.widget.Guideline
